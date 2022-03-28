@@ -1,0 +1,31 @@
+They are case sensitive
+They must start from letter or underscore
+
+
+>>> _count = 30
+>>> gender = "male"
+
+
+>>> 12name = "ali
+SyntaxError: invalid syntax
+>>> my age = 23
+SyntaxError: invalid syntax
+
+
+They shouldn't have any spaces
+>>> myage = 23
+>>> my age = 23
+SyntaxError: invalid syntax
+
+
+Only letters numbers and underscore can be used
+>>> myage = 23
+count123 = 100
+>>> c1 = 10
+>>> 1c = 10
+SyntaxError: invalid syntax
+
+
+Special charactors such as ^, %, *,  $, # are not allowed
+>>> as$ -20
+SyntaxError: invalid syntax

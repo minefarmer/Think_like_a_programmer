@@ -1,0 +1,39 @@
+Expression
+
+A statement that evaluates to a single value is called an expression.
+
+An expression consists of operators and operands
+
+Example:
+A + S
+M / N
+x + 100
+
+An expression that can add two numbers in variables and then store the results in a third variable.
+
+X1 = 10
+X2 = 20
+
+X3 = X1 + X2
+
+
+>>> a + b + c
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    a + b + c
+NameError: name 'a' is not defined                  (OOPS) bad
+
+In python I need to define the variable before using them.
+>>> a = 10
+>>> b = 3
+>>> c = 1
+>>> a + b + c
+14
+
+>>>
+>>> a / b * c
+3.3333333333333335
+
+>>>
+>>> a * b / c + 100
+130.0
