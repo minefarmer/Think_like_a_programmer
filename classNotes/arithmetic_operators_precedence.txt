@@ -1,0 +1,69 @@
+''' Arithmatic operators '''''''''''''''''''''
+
+Operation   Symbol  Discription
+Addition        +   Adds two values
+Subtraction     -   Subtracts one value from another value
+Multiplication  *   Multiplies two values
+Division        /   Divides one value by another value
+Modulus         %   Gives rmainder of division of two integers
+
+
+
+A = 10
+B = 5
+
+        M0dulus
+10 / 5 = 0
+
+#  Why
+Modulus is the remainder and that is 0.
+
+>>> A = 100
+>>> B = 5
+>>> A + B
+105
+>>> A - B
+95
+>>> A * B
+500
+>>> A / B
+20.0
+>>> A % B
+0
+
+
+#  Python has two special operators  ********************************************
+
+** operator (for taking power)
+>>> 10 ** 2  # 10 raised to the power of 2
+100
+
+
+// Operatoe (for interger division)
+>>> 13 // 2  # for integer division
+6
+
+>>> 13 / 2
+6.5
+
+
+
+''' Operator Precedence  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+operators   Precedence
+()          1st
+**          2nd
+*, /, //, %  3rd
++, -        4th
+
+>>> 2 * (2 + 3)
+10
+
+
+>>> 
+>>> A = 1
+>>> B = 3
+>>> C = 100
+>>> X = A + B * C
+>>> X
+301

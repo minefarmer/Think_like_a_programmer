@@ -1,0 +1,40 @@
+A statement that assigns a value to a variable is called as assignment statement.
+
+
+The assignment operator ( = ) is used in assignment statement to assign a value or computational result to a variable.
+
+
+The name of the variable is written on the left hand side of the assignment operator and the value is written on the right side of the assignment operator.
+
+The value can be constant, variable, expresion or function.
+
+
+
+""" Syntax"""
+
+Variable = Expression
+
+Examples:
+A = 100 (Constant Value on RHS)
+C = A + B - C (Calculation on RHS)
+Name = "Rich" (Constant Value on RHS)
+C = B (Variable on RHS)
+P pow(10, 2) # discussed later
+
+
+
+>>> A = 100
+>>> B = 20
+>>> C = 30
+>>> p = A + B - C
+>>> name = "John"
+>>> count = p
+>>> p = p + 1
+>>> count
+90
+>>> p
+91
+>>> 
+
+>>> import math
+>>> X = math.pow(10, 2)
