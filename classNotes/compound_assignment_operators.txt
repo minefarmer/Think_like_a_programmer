@@ -1,0 +1,46 @@
+Compound assignment operators
+
+Compound assignment operators combines assignment operator with arithmatic operator.
+
+Compound assignment operator are used toperform mathematical operations more easily.
+
+
+                Variable op = expression
+
+Variable    The variable to assign a value,
+Op          It can be any arithmetic operator
+expression  It can be a constant, variable or arithmatic expression.
+
+
+
+                Examples
+
+A += 10 is equivalent to A = A + 10
+A -= 10 is equivalent to A = A - 10
+A *= 10 is equivalent to A = A * 10
+A /= 10 is equivalent to A = A / 10
+A %= 10 is equivalent to A = A % 10
+A //= 10 is equivalent to A = A // 10
+A **= 10 is equivalent to A = A ** 10
+
+
+
+
+>>> a = 10
+>>> a
+10
+>>> a += 1
+>>> a
+11
+>>> a -= 1
+>>> a
+10
+
+
+
+>>> S = 1
+>>> b = 20
+>>> S = S + b * 10 / 30     # This exprerssion is evaluated first
+>>> S += b * 10 / 30
+>>> S
+14.333333333333334

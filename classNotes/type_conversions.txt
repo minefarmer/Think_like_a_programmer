@@ -1,0 +1,5 @@
+Type Conversion
+
+float(): this function will return a floating point number by giving integer or string.
+int(): this function will return an integer number by giving floating point number or string.
+

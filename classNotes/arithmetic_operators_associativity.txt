@@ -26,7 +26,8 @@ operators   Associativity
 256
 
 
-        Example
+        Example 1
+
 10*(24 / (5-2)) + 13
            /
           /
@@ -43,3 +44,43 @@ operators   Associativity
 
  >>> 10 * (24 / (5 - 2) ) + 13
 93.0
+
+
+
+        Example 2
+
+X = A + B * C
+F = 9 / 5 * C + 32 (Temperature Converter)
+# b squared - 4ac  # note
+# above with divsion box above
+
+
+>>> C = 32
+>>> F = 9 / 5 * C + 32
+>>> F
+89.6
+
+# Line 54 defined here
+
+>>> a = 1
+>>> b = 2
+>>> c = 3
+>>> b ** 2 - 4 * a * c
+-8
+
+
+# Storing the above in a variable
+
+>>> r = b ** 2 - 4 * a * c
+>>> r
+-8
+
+
+# A simple way using the power operator.
+>>> r ** 0.5
+(1.7319121124709868e-16+2.8284271247461903j)
+>>> r ** 1/2
+-4.0
+>>> 
+
+
