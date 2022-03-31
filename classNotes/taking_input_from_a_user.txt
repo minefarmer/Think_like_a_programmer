@@ -1,0 +1,54 @@
+'''  Taking string (text) values from a user. '''
+>>> input()
+hello there
+'hello there'
+>>> x = input()
+hello there
+>>> x
+'hello there'
+>>> input()
+10
+'10'
+>>> num = input()
+10
+>>> int(num)
+10
+>>> num = input()
+10.5
+>>> 
+>>> 
+>>> 
+>>> # display message for user
+>>> name = input('please inter your name: ')
+please inter your name: Rich
+>>> name
+'Rich'
+>>> 
+>>> 
+>>> 
+>>> age = input('please inter your age: ')
+please inter your age: 83
+>>> age
+'83'
+>>> age = int(age)
+>>> age
+83
+>>> cgpa = input('enter your cgpa: ')
+enter your cgpa: 3.9
+>>> cgpa = float(cgpa)
+>>> cgpa
+3.9
+
+
+
+# shortcut for input() with int() and float()   **************************************
+>>> age = int(input("enter your age: "))
+enter your age: 83
+>>> age
+83
+>>> 
+>>> 
+>>> cgpa = float(input('enter your cgpa: '))
+enter your cgpa: 3.9
+>>> 
+

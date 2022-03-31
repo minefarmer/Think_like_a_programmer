@@ -1,0 +1,24 @@
+'''     Type conversion     '''
+
+float(): this function will return a floation point number by giving interger or string.
+>>> int(10.3)
+10
+
+int(): this function will return an interger number by giving point number or string.
+>>> float(10)
+10.0
+
+str(): this function will return a string by giving a string that represents a number.
+>>> str(10.3)
+'10.3'
+>>> str(10)
+'10'
+
+type(): this function will tell us about the type of any number or string.
+>>> type(10.3)
+<class 'float'>
+>>> type(10)
+<class 'int'>
+>>> type("10")
+<class 'str'>
+

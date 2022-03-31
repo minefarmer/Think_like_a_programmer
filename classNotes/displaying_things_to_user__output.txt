@@ -1,0 +1,52 @@
+>>> print("Hello World!")
+Hello World!
+>>> print(10)
+10
+>>> print(100.32)
+100.32
+>>> name = "john"
+>>> age = 83
+>>> 
+>>> 
+>>> 
+>>> # printing mathematical expression in print()
+>>> print(10 + 3)
+13
+>>> print(9 / 5 * 40 + 32)
+104.0
+>>> 
+>>> 
+>>> 
+>>> # using comma in print()
+>>> print("Hello", "to programming")
+Hello to programming
+>>> name = "Rich"
+>>> age = 83
+>>> print('my name is ', name, ' and my age is ', age)
+my name is  Rich  and my age is  83
+>>> 
+
+
+
+Escape Sequences
+
+Escape Character    Usage
+    \n          Used to print a new line
+    \t          Used to print tab seperated line
+    \"          Used to inclose string in double quotes
+    \'          Used to inclose string in simgle quotes
+
+
+
+>>> print("welcome\nto\nprogramming")
+welcome
+to
+programming
+>>> 
+
+>>> print("hello\tworld")
+hello   world
+
+>>> print('she sais, \"we should go ahead for the mission\"')
+she sais, "we should go ahead for the mission"
+>>> 

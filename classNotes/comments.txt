@@ -1,0 +1,7 @@
+'''     Cooments '''
+
+Comments are the lines that are not executed.
+
+triple quotes are for multi-line Comments
+
+# is used for single line comments
