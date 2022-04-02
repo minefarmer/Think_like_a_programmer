@@ -1,0 +1,25 @@
+'''     Pseudocode  '''
+
+I can write my algorithms in simple english. It is called Pseudocode
+
+befor i start writing my programs, I need to write the steps in simple English and then translate those steps to any programming language.
+
+
+
+Example # 1: Temperature Converter
+    # Always write the 'start' Word to tell the reader that this pseudocode is strating here.
+1. Start.
+2. Take the value of Temperature in Celsius from User.
+3. Convert the Celsius degree to Fahrenheit using F = 9 / 5 * C + 32.
+4. Display the Temperature in Fahrenheit to screen.
+5. End
+    # And always end the Pseudocode with the 'End' word
+
+
+
+Example # 2 Calculate the area of a circle
+1. Start
+2. Take the value of radius from user.
+3. Calculate the area using area = 3.14*r*r 
+4. Print the area.
+5. End

@@ -1,0 +1,43 @@
+""" Flowchart  """
+
+Flow chart is a combination of two words = flow and chart.
+
+A chart consists of differient symbole to display infarmation about any program.
+
+Flow indicates the direction of proccessing that takes place in the program.
+
+Flow chart is the graphical represantation of algorithm or pseudocode.
+
+It is a way of visually presenting the flow of data, operations performed on the data and swquence of these operations.
+
+Flow chart is commonly used to improve the logic for solving a problem.
+
+Example -> layout plan of a building,
+
+
+
+
+
+''' Flowchart Symbols  '''
+
+Input/output
+
+    Input Marks
+
+    Print Marks
+
+## For example parrallelogrames symbol is used to represent an input power output of the computer program
+## Input symbol is used to get the input from the user and the output symbol is used to display a message to the user or to display a value,
+
+
+1.Proccess
+    ## A process can be any mathematical calculation.
+
+    Sum = A + B
+    ## This is one example of processing
+
+2. Selection
+
+    n > 50
+    ## This is an example of processing
+
