@@ -1,0 +1,9 @@
+Agenda
+
+    Introduction to Flowgorithm (A tool to draw flowcharts)  # A very usfull software card.
+    Install of Flowgorithm
+    Example
+
+Install
+        Flowgorithm.org  # really just for windows.
+        # see resources for .py

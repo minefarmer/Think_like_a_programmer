@@ -41,3 +41,39 @@ Input/output
     n > 50
     ## This is an example of processing
 
+3. Start/End
+
+    Start   End
+    ## This symbol is used to represent the start or end of the flow chart.
+
+4. Flow lines
+
+        ^
+        |
+      <- ->
+        |
+        ^
+    ## There are four flow lines.
+
+5. Connector
+
+        ## A big circle
+
+        ## It is used when two or more flow symboles come from differient directions and move to one direction.
+
+6. Function calculation
+
+        ## The rectangle symbol with double lines on the left and right side is used to call a function.
+        ## The name of the function with perameters is written inside the symbol.
+
+
+
+# Example # 1: Temperature Converter
+
+    1. Start
+    2. Take the value of Temperature in Celsius from the user.
+    3. Convert the  Celsius degree to Fahrenheit using F = 9 / 5 * C + 32
+    4. Display the temperature in fahrenheit to screen.
+    5. End
+
+
