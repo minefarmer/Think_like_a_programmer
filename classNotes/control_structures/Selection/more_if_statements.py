@@ -46,9 +46,24 @@ Write a program that inputs marks of three subjects. If the average of the three
 
 
 # take input from the user
-marks = input('Please enter the marks! ')
+subject1 = input("Please enter the marks of Subject 1: ")
+subject1 = float(subject1)
 
-marks = int(marks)
+subject2 = input("Please enter the marks of Subject 2: ")
+subject2 = float(subject2)
 
-if marks > 50:
-    print("Congradulations! You have passed. ")
+subject3 = input("Please enter the marks of Subject 3: ")
+subject3 = float(subject3)
+
+Sum = subject1 + subject2 + subject3
+    
+avg = Sum / 3
+
+if avg > 80:
+    print("You are above standard!")
+    print("Admission granted!")  # Please enter the marks of Subject 1: 80
+                                # Please enter the marks of Subject 2: 85
+                                # Please enter the marks of Subject 3: 78
+                                # You are above standard!
+                                # Admission granted! 
+  
