@@ -1,0 +1,24 @@
+Introduction to Iterations or Loops
+
+A type of control structure that repeats a statement or block of statements is called looping structure or in short iterations.
+
+In sequence, all instructions were executed in the same order that was defined.
+
+In selection, some instructions were selected or skipped on the basis of condition.
+
+In iterations, some instructions are repeated in a specific number of times.
+
+
+
+
+        Types of loops / Iterations ****************************************
+
+Counter-controlled Loops (in short for loops)
+Conditional or sentinel-controlled Loops (in short while loops)
+Infinite Loops
+
+Examples:
+For Loop: repeat the name of a student for 10 times
+While Loop: keep entering the positive integer values untill user enters negative integer values
+
+
