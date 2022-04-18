@@ -67,3 +67,5 @@ if avg > 80:
                                 # You are above standard!
                                 # Admission granted! 
   
+
+  
