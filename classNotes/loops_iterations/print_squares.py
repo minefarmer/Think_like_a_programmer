@@ -29,4 +29,3 @@ Sample output:
 loop from 1 to 5
 '''
 
-print("HI")
