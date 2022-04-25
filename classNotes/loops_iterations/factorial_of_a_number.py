@@ -56,6 +56,8 @@ End
 
 '''
 
+
+# This is not the correct way see  # debugging.py
 # Take the value from user
 N = int(input("Please enter the number: "))
 
