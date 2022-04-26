@@ -60,7 +60,8 @@ N  = int(input("Please enter the number: "))
 
 while True:
     if N < 1 or N > 10:
-        N = int(input("Please re-enter the number in range 1 to 10: "))
-else:
-    print("Congratulations, you entered the number in correct range")
-    break
+       N = int(input("Please re-enter the number in range 1 to 10: "))
+    elif:
+        print("Congratulations, you entered the number in correct range")
+    else:
+        break
