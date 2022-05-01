@@ -1,0 +1,15 @@
+            Data Structures
+
+Data structure is a specialized format for organizing and storing data.
+
+The key role of a computer program is to store and process data. Any  computer software has a data model that that defines what data will be collected and worked on. (http:bbc.co.uk/education/guides/z4tf9j6/revision/1)
+
+Data Structure Examples are lists, Strings, records, tables, dictionaries etc.
+
+
+            Characteristics of Data Structures
+
+Static
+Dynamic
+Mutable
+Immitable
