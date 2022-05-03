@@ -1,4 +1,4 @@
-'''     Find firsr N prime numbers
+'''     Find first N prime numbers
 
 Write a program that can find the first N prime number.
 The program should display all first N Prime numbers and should also display the count of all prime numbers.

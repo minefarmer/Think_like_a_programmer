@@ -147,6 +147,7 @@ while True:
         student.remove(name)
         print("Student deleted Successfully")
     elif option == 3:
+        name = input("Please enter the name of the student that you want to search: ")
         index = student.index(name)
         print("Student record found successfully at ", index)
     elif option == 4:
