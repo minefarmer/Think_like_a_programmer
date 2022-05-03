@@ -1,20 +1,3 @@
-'''     Queues
-
-A queue is a linear list of elements in which deletions can take place  only at one end, called the front.
-Insertions in the Quwuw can only take place at the other end called rear.
-Queues are also called FIFO (first in first out), since the first element in a queue will be the first element that can go out of tIn other words, the order in which elemente enter a qqueue, is the order in which they leave
-dEFINATION TAKEN FROM: sCHAUM'S OUTLINES dATA sTRUCTURES BY sEYMOUR lIPSCHUTZ
-
-    How to implement?
-To implement a queue, use "collections.deque" which was designed to have fast appends and pops from both ends
-from collections import deque
-Use popleft() to remove element from front
-Use append() to insert new element at the end.
-
-
-
-
-'''
 from collections import deque
 
 queue = deque([10, 20, 30])
@@ -24,9 +7,9 @@ while True:
     print("2. Remove element from queue")
     print("3. Display elements in queue")
     print("4. Exit")
-    
-    choice = int(input("Enter your choice: "))
-    
+
+    choice = int(input("Enter your Choice: "))
+
     if choice == 1:
         if len(queue) == 5:
             print("Sorry, queue is already full")
@@ -49,12 +32,12 @@ while True:
         break
     else:
         print("Invalid option")
-        
-    more = input("Do you want to continue?(y/n) : ")
-            
+
+    more = input("Do you want to continue?(y/n): ")
+
     if more == 'Y' or more == 'y':
         continue
     else:
         print("Thank You. See you later")
         break
-        
+
