@@ -57,4 +57,47 @@ while True:
     else:
         print("Thank You. See you later")
         break
-        
+
+
+
+'''
+
+1. Insert Element in the queue
+2. Remove element from queue
+3. Display elements in queue
+4. Exit
+Enter your choice: 3
+10 20 30 
+Do you want to continue?(y/n) : y
+1. Insert Element in the queue
+2. Remove element from queue
+3. Display elements in queue
+4. Exit
+Enter your choice: 1
+Please enter element: 40
+40  inserted successfully
+Do you want to continue?(y/n) : y
+1. Insert Element in the queue
+2. Remove element from queue
+3. Display elements in queue
+4. Exit
+Enter your choice: 3
+10 20 30 40 
+Do you want to continue?(y/n) : y
+1. Insert Element in the queue
+2. Remove element from queue
+3. Display elements in queue
+4. Exit
+Enter your choice: 2
+10  was removed successfully
+Do you want to continue?(y/n) : y
+1. Insert Element in the queue
+2. Remove element from queue
+3. Display elements in queue
+4. Exit
+Enter your choice: 3
+20 30 40 
+Do you want to continue?(y/n) : n
+Thank You. See you later
+
+'''
