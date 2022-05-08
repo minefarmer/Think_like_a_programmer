@@ -27,3 +27,12 @@ Error: Division by Zero
 
 
 '''
+# Division by zero.
+try:
+    print(10 / 0)
+except ZeroDivisionError:
+    print("Division by Zero")  # Division by Zero
+except ValueError:
+    print("Can't convert from 'sdg' to int")
+    
+
