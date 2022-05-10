@@ -51,17 +51,6 @@ class Account:
 myAccount = Account("123456", 1000)
 print(myAccount)
 print(myAccount.getAccountNumber())
-    def setBalance(self, amount):
-        self.balance = amount
-    def credit(self, amount):
-        self.balance += amount  # self.balance = self.balance + amount
-    def debit(self, amount):
-        if self.balance < amount:
-            print("Amount withdrawn esceeds the current balance")
-        else:
-            self.balance -= amount
-    def __init__(self):
-        return "Hi.. I am account class.."
 myAccount = Account("123456", 1000)
 print(myAccount)
 print(myAccount.getAccountNumber)
