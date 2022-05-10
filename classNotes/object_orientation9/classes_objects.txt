@@ -1,0 +1,31 @@
+            Classes
+
+    Student Class
+1. In an OO model, some of the objects exhibit identical characteristics(properties and behaviors)
+2. We say that they belong to the same class.
+        Data (Properties)           Behaviors (Functions)
+            Name                        Study
+            Rool Number                 Take exams
+            CGPA
+            Semester
+
+
+    Maria is an object from Student Class.
+        Data or properties
+        --------------------
+        Name        = Maria
+        Rool Number = Fall-2016-80
+        CGPA        = 3.17
+        Semester    = First
+
+
+            What is an Object?
+
+    An object is:
+Something tangible (John, Car, Ball, House, etc.)
+Something that can be apprehended intellectually (Time, Date, Angle)
+
+    An object has:
+Data or Values (Properties)
+Well-defined bhaviors (Functions)
+Unique identity

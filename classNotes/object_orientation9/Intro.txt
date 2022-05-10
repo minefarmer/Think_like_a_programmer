@@ -54,5 +54,6 @@ OO model consists of several interactiong objects
             Advantages of Object Orientation
 
 People think in terms of objects.
-OO models map to realityTherefore, OO models are easy yo develope and easy to understand.
+OO models map to reality.
+Therefore, OO models are easy to develope and easy to understand.
 
