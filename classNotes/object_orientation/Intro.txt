@@ -1,0 +1,58 @@
+        Example of List (one layer of abstraction)
+10, 2.5, "Ali", 100, 60
+
+        Example of function (another layer of abstraction)
+     F1      F2      F3      F4
+    code    code    code    code
+        # they contain thier own code
+
+
+        Disadvantages of Functional Oriented Programming
+Functions are less reuseable in other programs.
+Many functions are dependent on some global data for functioning.
+Thus I cannot migrate a function to anothes program because they are heavily dependent on global data in thier original program.
+It is better to use a class
+
+
+        Class (another layer of abstration)
+
+    Propertied (Data)
+    |                   |   <- A class is another layer of abstration that contains both
+    behaviors (Functions)      data and functions. 
+
+
+
+*********   What is Object orientation?
+
+A technique for system modeling
+
+System ->a set of things working together as parts of a mechanism or an interconnecting network; a complex whole (Oxford dictionary)
+
+Object orinrtated modules. OO model consists of several interaction objects.
+
+
+            Soccer game Example
+
+Player      Football        Ground
+Audience    referee         score boaed
+
+
+            Messages
+
+Objects in a system communicate with each other through messages.
+The sender object needs to call an appropriate operations on the reciever object.
+
+
+            What is Object Orientation?
+
+A technique for system modeling.
+System -> a set of things working together qas parts of a mechanism or an interconnecting network; a complex whole(Oxford dictionary)
+
+OO model consists of several interactiong objects
+
+
+            Advantages of Object Orientation
+
+People think in terms of objects.
+OO models map to realityTherefore, OO models are easy yo develope and easy to understand.
+
