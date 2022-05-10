@@ -252,20 +252,18 @@ def Toss():
         return 'X'
     else:
         return 'O'
-    
-done = False
-while not done:
+
     
 board = [ ' ', ' ', ' ',
           ' ', ' ', ' ',
           ' ', ' ', ' ']
+showBoard
 
 if selectLetter() == 'X':
     print("You are X")
 else:
     print("You are O")
 
-player = []
 if Toss() == 'X':  
     print("X has won the toss")
     player = ['X', 'O']
