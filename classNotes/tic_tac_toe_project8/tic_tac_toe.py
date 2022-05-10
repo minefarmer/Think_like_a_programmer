@@ -197,6 +197,8 @@ Website of the tic-tac-toe-game.
 # Checking a tie condition
 
 
+
+import random
 def showBoard():
     print("+---+---+---+")
     print("|",board[0],  "|",board[1], "|",board[2], "|")
@@ -238,23 +240,25 @@ def isFull():
     else:
         return False
     
-    def selectLetter():
-        letter = ''
-        while not (letter == 'X' or letter == 'O'):
-            print("Do you want to be x or O?")
-            letter = input().upper()
-        return letter
+def selectLetter():
+    letter = ''
+    while not (letter == 'X' or letter == 'O'):
+        print("Do you want to be X or O?")
+        letter = input().upper()
+    return letter
+
+def Toss():
+    if random.randint(0, 1) == 0:
+        return 'X'
+    else:
+        return 'O'
     
-    def Toss():
-        if random.randinet(0, 1) == 0:
-            return 'X'
-        else:
-            return 'O'
-        
+done = False
+while not done:
+    
 board = [ ' ', ' ', ' ',
           ' ', ' ', ' ',
           ' ', ' ', ' ']
-
 
 if selectLetter() == 'X':
     print("You are X")
@@ -262,18 +266,18 @@ else:
     print("You are O")
 
 player = []
-if Toss() == 'X':
+if Toss() == 'X':  
     print("X has won the toss")
     player = ['X', 'O']
 else:
     player = ['O', 'X']
-    print(('O has won the toss'))
+    print('O has won the toss')
 showBoard()
 
 while True:
     while True:
         print(player[0],"\'s turn", end=' ')
-        p1 = int(input('Please enter the position (0-9): '))
+        p1 = int(input('Please enter the position (0-9) '))
         if board[p1] == ' ':
             board[p1] = player[0]
             break
@@ -291,19 +295,26 @@ while True:
         break
     
     while True:
-        print(player[0],"\'s turn", end=' ')
-        O = int(input('Please enter the position (0-9): '))
-        if board[O] == ' ':
-            board[O] = [1]
-            break
-        else:
-            print("Position is already taken")
+        while True:
+            print(player[1],"\'s turn", end=' ')
+            O = int(input('Please enter the position (0-9): '))
+            if board[O] == ' ':
+                board[O] = player[1]
+                break
+            else:
+                print("Position is already taken")
             
-    showBoard()
+        showBoard()
     
-    if isWinner(player[1]):
-        print("O has won")
-        break
-    if isFull():
-        print("'Match Tied !")
-        break
+        if isWinner(player[1]):
+            print(player[1], "has won")
+            break
+        
+        if isFull():
+            print("'Match Tied !")
+            break
+    
+    print("Do you want to continue? (y/n)")
+    option = input()
+    if option.lower() == 'y':
+        
