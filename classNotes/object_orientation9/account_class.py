@@ -62,7 +62,7 @@ print(myAccount.getBalance())
 myAccount.debit(500)
 print(myAccount.getBalance())
 myAccount.debit(4000)
-print(myAccount.getBalance)
+print(myAccount.getBalance())
 myAccount.debit(500)
 print(myAccount.getBalance())
 
