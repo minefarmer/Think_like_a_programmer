@@ -1,29 +1,42 @@
+
+
 class Account:
-    def __init__(self, accNumber, balance):
-        self.__accNumber = accNumber  # the double underscore hides the info
-        self.__balance = balance
+    __accNumber = 0
+    __balance = 0
+    def __init__(self, accNumber, balance = 1000):
+        self.setAccNumber(accNumber) # self.__accNumber = accNumber  # the double underscore hides the info
+        self.setBalance(balance)
     def getAccountNumber(self):
         return self.__accNumber
+    def setAccNumber(self, accNumber):
+        if len (accNumber) != 10 or not accNumber.isdigit():  # "1234567890"
+            print("Invalid account number!")
+        else:
+            self.__accNumber = accNumber
     def getBalance(self):
         return self.__balance
     def setBalance(self, amount):
-        if amount  > 0:
+        if amount >= 0:
+            
             self.__balance = amount
         else:
-            print("Amount should be greater than zero")
+            print("Amount should be greater than zero or equal to zero")
     def credit(self, amount):
-        self.__balance += amount   # self.balance = self.balance + amount
+        if amount > 0:
+            self.__balance += amount
+        else:
+            print("Amount should be positive")
     def debit(self, amount):
         if self.__balance < amount:
             print("amount withdrawn exceeds the current balance")
         else:
             self.__balance -= amount
     def __str__(self):
-        return "Hi..I am account class.."
-myAccount = Account("123456", 1000)
+        return "Account Number: {}, Balance: ".format(self.getAccountNumber(), self.getBalance())
+myAccount = Account("123456", "1000")
 print(myAccount)
 print(myAccount.getAccountNumber())
-myAccount = Account("123456", 1000)
+myAccount = Account("123456")
 print(myAccount)
 print(myAccount.getAccountNumber)
 print(myAccount.getBalance())

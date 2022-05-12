@@ -1,0 +1,42 @@
+            Composition
+
+Composition means an object is composed of other objects!
+
+An object that contains other objects is called "Whole" while other objects are called "parts".
+
+A composition is a "has-a" relationship.
+
+Composition is one example of relationship between classes.
+
+
+            Example = Composition of a car
+
+                    Engine
+                      |
+                      | 1
+                      |
+        Tyre _______Car______Seat
+                4     |   4
+                      | 1
+                      |
+                     Body
+
+
+
+                Example = Student and Date Class
+        Student                                                 Date
+    name                                                Day
+    gpa                                                 Month
+    enrollDate                                          year
+___|_____________________________________<>____________|_____________
+_init_(name, gpa, birthdate, enrollDate)                _init_(day, month, year)
+SEtgpa(gpa)                                             setDay(day)
+Getgpa()                                                getDay()
+setName(name)                                           setMonth(month)
+getName()                                               getMonth()
+getBirthDate()                                          setYear(Year)
+getEnrollDate()                                         get(year)
+_str_()                                                 _str_()
+
+
+
