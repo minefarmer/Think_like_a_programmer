@@ -69,7 +69,7 @@ class Student:
         return self.gpa
     def setGpa(self, gpa):
         self.gpa = gpa
-    def getName(self):
+    def getName(self, name):
         return self.name
     def setName(self, name):
         self.name = name
