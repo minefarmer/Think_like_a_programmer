@@ -1,0 +1,39 @@
+        Example
+
+                    ____Animal____
+                    +picture
+                    +hungerLevel
+                    *location
+                    _______________
+                    +makeNoise()                makeNoise and eat()
+                    +eat()          ----------- should be abstract and child
+                    +move()                     classes willdecide how to
+                      /   |   \                 implement them
+                     /    |    \
+                    /     |     \
+                   /      |      \
+                  /       |       \
+                 /        |        \
+                /         |         \
+               /          |          \
+              /           |           \
+             /            |            \
+            /             |             \
+         lion            Cat            Wolf
+    +makeNoise()     +makeNoise()    +makeNoise()
+        +eat()          +eat()          +eat()
+
+
+
+        Abstract classes
+An abstract class implemen ts an abstract concept
+Main purpose is to be inherited by other classes
+Can't be instantiated
+Promotes reuse
+
+
+
+        Concrete Classes 
+A concrete class implements a concrete concept
+Main purpose is to be instantiated
+Provides implementation details specefic to the domain context

@@ -1,0 +1,42 @@
+
+         Inheritance
+A child inherits characteristics of it's parents.
+Besides inherited characteristics, a child may have it's own unique characteristics.
+
+
+Inhehitance is a form of software reusability in which new classes sre created from exisitin classes by "inheriting" their properties and behaviors.
+
+If a class B inherits from class A then it contains all the characteristics (properties and behaviors) of class A
+
+The parent class is called base class and the child class is called derived class (parent class -> superclass, child class -> subclass)
+
+
+Besides inherited characteristics, derived class may have it's own unique characteristics. 
+A child/derived class can override some behaviors in the parent/base class. 
+
+
+    Example - "Is a" Relationship
+                    Person
+                    name
+                    age
+                    gender
+                    eat
+                    walk
+                  /  |  \
+                 /   |   \
+                /    |    \
+        /            |                      \        
+    Student             Teacher             Doctor 
+program             designation         designation
+studyYear           salary              salary
+  study               teach               checkup 
+  heldExam            takeExam            prescribe
+  
+  
+    Inheritance - Advantages
+
+Reusability
+
+Less redundancy
+
+Easy to Extend
